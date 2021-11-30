@@ -1,0 +1,19 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Users.GetUserByID]
+Test Description:	[Get Specific User By ID]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @29-11-2021 20:51:22.0961 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @29-11-2021 20:51:22.0964 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @29-11-2021 20:51:22.0965 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Users" | Content Type: "application/json" | Response Time: "562ms"]. @29-11-2021 20:51:23.0011 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @29-11-2021 20:51:23.0013 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @29-11-2021 20:51:23.0100 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @29-11-2021 20:51:23.0126 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @29-11-2021 20:51:23.0677 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @29-11-2021 20:51:23.0679 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @29-11-2021 20:51:23.0681 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Users/1" | Content Type: "*/*" | Response Time: "541ms"]. @29-11-2021 20:51:23.0709 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @29-11-2021 20:51:23.0710 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @29-11-2021 20:51:23.0713 PM
