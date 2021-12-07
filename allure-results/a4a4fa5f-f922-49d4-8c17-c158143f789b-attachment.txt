@@ -1,0 +1,13 @@
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.CreateBook]
+Test Description:	[Create Book]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:24.0612 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:24.0613 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:24.0621 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "1617ms"]. @07-12-2021 21:14:24.0651 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:24.0653 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @07-12-2021 21:14:25.0137 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:25.0140 PM

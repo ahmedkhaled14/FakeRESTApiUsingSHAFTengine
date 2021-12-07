@@ -1,0 +1,19 @@
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.GetBookByID]
+Test Description:	[Get Book By ID]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:42.0063 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:42.0065 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:42.0066 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "5213ms"]. @07-12-2021 21:14:45.0883 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:45.0916 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:45.0935 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @07-12-2021 21:14:46.0481 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:47.0886 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:47.0888 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:47.0889 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books/1" | Content Type: "application/json" | Response Time: "1394ms"]. @07-12-2021 21:14:47.0928 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:47.0930 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:47.0934 PM
