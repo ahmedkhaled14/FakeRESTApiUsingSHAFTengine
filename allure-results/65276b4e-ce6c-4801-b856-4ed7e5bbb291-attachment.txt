@@ -1,0 +1,99 @@
+################################################################################################################################################
+Detected SHAFT Engine Version: [SHAFT Engine v5.4.20211117-BETA]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:21.0044 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:21.0106 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:21.0107 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Users" | Content Type: "application/json" | Response Time: "6689ms"]. @07-12-2021 21:14:22.0814 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:22.0817 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @07-12-2021 21:14:22.0820 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:22.0823 PM
+
+################################################################################################################################################
+Starting Execution:	[1 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.CreateBook]
+Test Description:	[Create Book]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:24.0612 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:24.0613 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:24.0621 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "1617ms"]. @07-12-2021 21:14:24.0651 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:24.0653 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @07-12-2021 21:14:25.0137 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:25.0140 PM
+
+################################################################################################################################################
+Starting Execution:	[2 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.DeleteBook]
+Test Description:	[Delete Book]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:29.0999 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:30.0001 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:30.0002 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "4671ms"]. @07-12-2021 21:14:31.0633 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:31.0635 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:31.0653 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @07-12-2021 21:14:31.0908 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:36.0791 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:36.0793 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:36.0794 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books/1" | Content Type: "application/json" | Response Time: "4867ms"]. @07-12-2021 21:14:36.0809 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:36.0811 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:36.0813 PM
+
+################################################################################################################################################
+Starting Execution:	[3 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.GetBookByID]
+Test Description:	[Get Book By ID]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:42.0063 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:42.0065 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:42.0066 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "5213ms"]. @07-12-2021 21:14:45.0883 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:45.0916 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:45.0935 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @07-12-2021 21:14:46.0481 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:47.0886 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:47.0888 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:47.0889 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books/1" | Content Type: "application/json" | Response Time: "1394ms"]. @07-12-2021 21:14:47.0928 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:47.0930 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:47.0934 PM
+
+################################################################################################################################################
+Starting Execution:	[4 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.GetBooks]
+Test Description:	[Get All Books]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:49.0563 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:49.0564 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:49.0565 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "1610ms"]. @07-12-2021 21:14:50.0646 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:50.0650 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:50.0663 PM
+
+################################################################################################################################################
+Starting Execution:	[5 out of 5] test cases in the current suite
+Test Method:		[FakeRestApi.Books.UpdateBook]
+Test Description:	[Update Book]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:52.0005 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:52.0006 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:52.0006 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books" | Content Type: "application/json" | Response Time: "1306ms"]. @07-12-2021 21:14:53.0131 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:53.0132 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:53.0141 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @07-12-2021 21:14:53.0268 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @07-12-2021 21:14:54.0177 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @07-12-2021 21:14:54.0177 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @07-12-2021 21:14:54.0177 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "PUT" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1//Books/1" | Content Type: "application/json" | Response Time: "903ms"]. @07-12-2021 21:14:54.0212 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @07-12-2021 21:14:54.0213 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @07-12-2021 21:14:54.0215 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @07-12-2021 21:14:54.0217 PM
+[ReportManager] Successfully created attachment [SHAFT Engine Logs - Execution log] @07-12-2021 21:14:54.0261 PM
+
+################################################################################################################################################
+This test run was powered by SHAFT Engine Version: [SHAFT Engine v5.4.20211117-BETA]
+SHAFT Engine is licensed under the MIT License: [https://github.com/MohabMohie/SHAFT_ENGINE/blob/master/LICENSE].
+################################################################################################################################################
