@@ -9,28 +9,8 @@
     <value>17</value>
   </parameter>
   <parameter>
-    <key>sun.cpu.isalist</key>
-    <value>amd64</value>
-  </parameter>
-  <parameter>
-    <key>sun.arch.data.model</key>
-    <value>64</value>
-  </parameter>
-  <parameter>
-    <key>idea.test.cyclic.buffer.size</key>
-    <value>1048576</value>
-  </parameter>
-  <parameter>
-    <key>testDataFolderPath</key>
-    <value>src/test/resources/testDataFiles/</value>
-  </parameter>
-  <parameter>
     <key>java.vendor.url</key>
     <value>https://java.oracle.com/</value>
-  </parameter>
-  <parameter>
-    <key>allureResultsFolderPath</key>
-    <value>allure-results/</value>
   </parameter>
   <parameter>
     <key>sun.boot.library.path</key>
@@ -38,38 +18,14 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket4983 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket7740 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
     <value>release</value>
   </parameter>
   <parameter>
-    <key>maximumPerformanceMode</key>
-    <value>0</value>
-  </parameter>
-  <parameter>
     <key>autoMaximizeBrowserWindow</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
-    <key>java.specification.vendor</key>
-    <value>Oracle Corporation</value>
-  </parameter>
-  <parameter>
-    <key>extentReportsFolderPath</key>
-    <value>extent-reports/</value>
-  </parameter>
-  <parameter>
-    <key>java.version.date</key>
-    <value>2021-10-19</value>
-  </parameter>
-  <parameter>
-    <key>java.home</key>
-    <value>C:\Program Files\Java\jdk-17.0.1</value>
-  </parameter>
-  <parameter>
-    <key>testng.dtd.http</key>
     <value>true</value>
   </parameter>
   <parameter>
@@ -93,32 +49,8 @@
     <value>true</value>
   </parameter>
   <parameter>
-    <key>video.save.mode</key>
-    <value>ALL</value>
-  </parameter>
-  <parameter>
-    <key>waitImplicitly</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
-    <key>sun.management.compiler</key>
-    <value>HotSpot 64-Bit Tiered Compilers</value>
-  </parameter>
-  <parameter>
-    <key>generateAllureReportArchive</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
     <key>java.runtime.version</key>
     <value>17.0.1+12-LTS-39</value>
-  </parameter>
-  <parameter>
-    <key>watermarkImagePath</key>
-    <value>images/shaft_white_bg.png</value>
-  </parameter>
-  <parameter>
-    <key>file.encoding</key>
-    <value>UTF-8</value>
   </parameter>
   <parameter>
     <key>forceCheckForElementVisibility</key>
@@ -133,6 +65,10 @@
     <value>C:\Users\AHMEDE~1\AppData\Local\Temp\</value>
   </parameter>
   <parameter>
+    <key>getUserByID</key>
+    <value>src/test/resources/testDataFiles/UsersTestData/GetUserByID.json</value>
+  </parameter>
+  <parameter>
     <key>databaseNetworkTimeout</key>
     <value>30</value>
   </parameter>
@@ -145,23 +81,7 @@
     <value>Java Virtual Machine Specification</value>
   </parameter>
   <parameter>
-    <key>dockerCommandTimeout</key>
-    <value>30</value>
-  </parameter>
-  <parameter>
     <key>databaseLoginTimeout</key>
-    <value>30</value>
-  </parameter>
-  <parameter>
-    <key>attemptsBeforeThrowingElementNotFoundException</key>
-    <value>5</value>
-  </parameter>
-  <parameter>
-    <key>org.slf4j.simpleLogger.defaultLogLevel</key>
-    <value>info</value>
-  </parameter>
-  <parameter>
-    <key>implicitWaitTimeout</key>
     <value>30</value>
   </parameter>
   <parameter>
@@ -177,16 +97,8 @@
     <value>Oracle Corporation</value>
   </parameter>
   <parameter>
-    <key>sun.io.unicode.encoding</key>
-    <value>UnicodeLittle</value>
-  </parameter>
-  <parameter>
     <key>screenshotParams_scalingFactor</key>
     <value>1</value>
-  </parameter>
-  <parameter>
-    <key>executionAddress</key>
-    <value>local</value>
   </parameter>
   <parameter>
     <key>ActivitiesServiceName</key>
@@ -195,10 +107,6 @@
   <parameter>
     <key>apiConnectionManagerTimeout</key>
     <value>30</value>
-  </parameter>
-  <parameter>
-    <key>browserObjectSingleton</key>
-    <value>false</value>
   </parameter>
   <parameter>
     <key>cucumber.features</key>
@@ -221,16 +129,8 @@
     <value>America/Los_Angeles</value>
   </parameter>
   <parameter>
-    <key>downloadsFolderPath</key>
-    <value>target/downloadedFiles/</value>
-  </parameter>
-  <parameter>
     <key>java.vm.specification.version</key>
     <value>17</value>
-  </parameter>
-  <parameter>
-    <key>os.name</key>
-    <value>Windows 10</value>
   </parameter>
   <parameter>
     <key>automaticallyAssertResponseStatusCode</key>
@@ -245,26 +145,6 @@
     <value>UIAutomator2</value>
   </parameter>
   <parameter>
-    <key>dynamicObjectRepositoryPath</key>
-    <value>src/main/resources/dynamicObjectRepository/</value>
-  </parameter>
-  <parameter>
-    <key>setThreadCount</key>
-    <value>1</value>
-  </parameter>
-  <parameter>
-    <key>setGroupByInstances</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
-    <key>screenshotParams_screenshotType</key>
-    <value>Regular</value>
-  </parameter>
-  <parameter>
-    <key>debugMode</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
     <key>retryMaximumNumberOfAttempts</key>
     <value>0</value>
   </parameter>
@@ -277,12 +157,8 @@
     <value>src/test/resources/testDataFiles/CoverPhotosTestData/CreateCoverPhoto.json</value>
   </parameter>
   <parameter>
-    <key>cucumber.plugin</key>
-    <value>pretty, html:allure-results/cucumberReport.html, com.shaft.tools.listeners.CucumberFeatureListener</value>
-  </parameter>
-  <parameter>
-    <key>path.separator</key>
-    <value>;</value>
+    <key>updateUserJson</key>
+    <value>src/test/resources/testDataFiles/UsersTestData/UpdateUser.json</value>
   </parameter>
   <parameter>
     <key>browserStack.accessKey</key>
@@ -295,14 +171,6 @@
   <parameter>
     <key>pageLoadTimeout</key>
     <value>30</value>
-  </parameter>
-  <parameter>
-    <key>browserStack.username</key>
-    <value>mohabmohie1</value>
-  </parameter>
-  <parameter>
-    <key>screenshotParams_highlightMethod</key>
-    <value>AI</value>
   </parameter>
   <parameter>
     <key>aiPoweredSelfHealingElementIdentification</key>
@@ -337,20 +205,8 @@
     <value>CoverPhotos</value>
   </parameter>
   <parameter>
-    <key>java.vm.info</key>
-    <value>mixed mode, sharing</value>
-  </parameter>
-  <parameter>
-    <key>java.class.version</key>
-    <value>61.0</value>
-  </parameter>
-  <parameter>
     <key>video.folder</key>
     <value>allure-results/videos</value>
-  </parameter>
-  <parameter>
-    <key>sun.jnu.encoding</key>
-    <value>Cp1252</value>
   </parameter>
   <parameter>
     <key>setPreserveOrder</key>
@@ -369,14 +225,6 @@
     <value>true</value>
   </parameter>
   <parameter>
-    <key>targetBrowserName</key>
-    <value>GoogleChrome</value>
-  </parameter>
-  <parameter>
-    <key>BooksServiceName</key>
-    <value>Books</value>
-  </parameter>
-  <parameter>
     <key>getCoverPhotosByIdJson</key>
     <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByID.json</value>
   </parameter>
@@ -387,14 +235,6 @@
   <parameter>
     <key>browserStack.debug</key>
     <value>true</value>
-  </parameter>
-  <parameter>
-    <key>captureClickedElementText</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
-    <key>file.separator</key>
-    <value>\</value>
   </parameter>
   <parameter>
     <key>java.vm.compressedOopsMode</key>
@@ -413,16 +253,244 @@
     <value>src/main/resources/properties/</value>
   </parameter>
   <parameter>
+    <key>screenshotParams_watermark</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>browserNavigationTimeout</key>
+    <value>30</value>
+  </parameter>
+  <parameter>
+    <key>allureVersion</key>
+    <value>2.16.1</value>
+  </parameter>
+  <parameter>
+    <key>videoParams_scope</key>
+    <value>DriverSession</value>
+  </parameter>
+  <parameter>
+    <key>user.country</key>
+    <value>US</value>
+  </parameter>
+  <parameter>
+    <key>sun.java.launcher</key>
+    <value>SUN_STANDARD</value>
+  </parameter>
+  <parameter>
+    <key>apiSocketTimeout</key>
+    <value>30</value>
+  </parameter>
+  <parameter>
+    <key>createAnimatedGif</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>java.runtime.name</key>
+    <value>Java(TM) SE Runtime Environment</value>
+  </parameter>
+  <parameter>
+    <key>generateExtentReports</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>animatedGif_frameDelay</key>
+    <value>500</value>
+  </parameter>
+  <parameter>
+    <key>getCoverPhotosByBookIdJson</key>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByBookID.json</value>
+  </parameter>
+  <parameter>
+    <key>forceCheckElementLocatorIsUnique</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>captureWebDriverLogs</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
+    <key>setDataProviderThreadCount</key>
+    <value>1</value>
+  </parameter>
+  <parameter>
+    <key>browserStack.networkLogs</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>sun.cpu.isalist</key>
+    <value>amd64</value>
+  </parameter>
+  <parameter>
+    <key>sun.arch.data.model</key>
+    <value>64</value>
+  </parameter>
+  <parameter>
+    <key>idea.test.cyclic.buffer.size</key>
+    <value>1048576</value>
+  </parameter>
+  <parameter>
+    <key>testDataFolderPath</key>
+    <value>src/test/resources/testDataFiles/</value>
+  </parameter>
+  <parameter>
+    <key>allureResultsFolderPath</key>
+    <value>allure-results/</value>
+  </parameter>
+  <parameter>
+    <key>maximumPerformanceMode</key>
+    <value>0</value>
+  </parameter>
+  <parameter>
+    <key>java.specification.vendor</key>
+    <value>Oracle Corporation</value>
+  </parameter>
+  <parameter>
+    <key>extentReportsFolderPath</key>
+    <value>extent-reports/</value>
+  </parameter>
+  <parameter>
+    <key>java.version.date</key>
+    <value>2021-10-19</value>
+  </parameter>
+  <parameter>
+    <key>java.home</key>
+    <value>C:\Program Files\Java\jdk-17.0.1</value>
+  </parameter>
+  <parameter>
+    <key>testng.dtd.http</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>video.save.mode</key>
+    <value>ALL</value>
+  </parameter>
+  <parameter>
+    <key>waitImplicitly</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
+    <key>sun.management.compiler</key>
+    <value>HotSpot 64-Bit Tiered Compilers</value>
+  </parameter>
+  <parameter>
+    <key>generateAllureReportArchive</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
+    <key>watermarkImagePath</key>
+    <value>images/shaft_white_bg.png</value>
+  </parameter>
+  <parameter>
+    <key>file.encoding</key>
+    <value>UTF-8</value>
+  </parameter>
+  <parameter>
+    <key>dockerCommandTimeout</key>
+    <value>30</value>
+  </parameter>
+  <parameter>
+    <key>attemptsBeforeThrowingElementNotFoundException</key>
+    <value>5</value>
+  </parameter>
+  <parameter>
+    <key>org.slf4j.simpleLogger.defaultLogLevel</key>
+    <value>info</value>
+  </parameter>
+  <parameter>
+    <key>implicitWaitTimeout</key>
+    <value>30</value>
+  </parameter>
+  <parameter>
+    <key>sun.io.unicode.encoding</key>
+    <value>UnicodeLittle</value>
+  </parameter>
+  <parameter>
+    <key>executionAddress</key>
+    <value>local</value>
+  </parameter>
+  <parameter>
+    <key>browserObjectSingleton</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
+    <key>downloadsFolderPath</key>
+    <value>target/downloadedFiles/</value>
+  </parameter>
+  <parameter>
+    <key>os.name</key>
+    <value>Windows 10</value>
+  </parameter>
+  <parameter>
+    <key>dynamicObjectRepositoryPath</key>
+    <value>src/main/resources/dynamicObjectRepository/</value>
+  </parameter>
+  <parameter>
+    <key>setThreadCount</key>
+    <value>1</value>
+  </parameter>
+  <parameter>
+    <key>setGroupByInstances</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>screenshotParams_screenshotType</key>
+    <value>Regular</value>
+  </parameter>
+  <parameter>
+    <key>debugMode</key>
+    <value>false</value>
+  </parameter>
+  <parameter>
+    <key>cucumber.plugin</key>
+    <value>pretty, html:allure-results/cucumberReport.html, com.shaft.tools.listeners.CucumberFeatureListener</value>
+  </parameter>
+  <parameter>
+    <key>path.separator</key>
+    <value>;</value>
+  </parameter>
+  <parameter>
+    <key>browserStack.username</key>
+    <value>mohabmohie1</value>
+  </parameter>
+  <parameter>
+    <key>screenshotParams_highlightMethod</key>
+    <value>AI</value>
+  </parameter>
+  <parameter>
+    <key>java.vm.info</key>
+    <value>mixed mode, sharing</value>
+  </parameter>
+  <parameter>
+    <key>java.class.version</key>
+    <value>61.0</value>
+  </parameter>
+  <parameter>
+    <key>sun.jnu.encoding</key>
+    <value>Cp1252</value>
+  </parameter>
+  <parameter>
+    <key>targetBrowserName</key>
+    <value>GoogleChrome</value>
+  </parameter>
+  <parameter>
+    <key>BooksServiceName</key>
+    <value>Books</value>
+  </parameter>
+  <parameter>
+    <key>captureClickedElementText</key>
+    <value>true</value>
+  </parameter>
+  <parameter>
+    <key>file.separator</key>
+    <value>\</value>
+  </parameter>
+  <parameter>
     <key>headlessExecution</key>
     <value>false</value>
   </parameter>
   <parameter>
     <key>user.name</key>
     <value>Ahmedeng_2537</value>
-  </parameter>
-  <parameter>
-    <key>screenshotParams_watermark</key>
-    <value>true</value>
   </parameter>
   <parameter>
     <key>cleanExtentReportsDirectoryBeforeExecution</key>
@@ -437,16 +505,16 @@
     <value>30</value>
   </parameter>
   <parameter>
+    <key>createUserJson</key>
+    <value>src/test/resources/testDataFiles/UsersTestData/CreateUser.json</value>
+  </parameter>
+  <parameter>
     <key>updateCoverPhotoJson</key>
     <value>src/test/resources/testDataFiles/CoverPhotosTestData/UpdateCoverPhoto.json</value>
   </parameter>
   <parameter>
     <key>waitForLazyLoading</key>
     <value>true</value>
-  </parameter>
-  <parameter>
-    <key>browserNavigationTimeout</key>
-    <value>30</value>
   </parameter>
   <parameter>
     <key>java.class.path</key>
@@ -461,16 +529,8 @@
     <value>true</value>
   </parameter>
   <parameter>
-    <key>allureVersion</key>
-    <value>2.16.1</value>
-  </parameter>
-  <parameter>
     <key>browserStack.acceptInsecureCerts</key>
     <value>true</value>
-  </parameter>
-  <parameter>
-    <key>videoParams_scope</key>
-    <value>DriverSession</value>
   </parameter>
   <parameter>
     <key>forceCheckTextWasTypedCorrectly</key>
@@ -478,18 +538,6 @@
   </parameter>
   <parameter>
     <key>databaseQueryTimeout</key>
-    <value>30</value>
-  </parameter>
-  <parameter>
-    <key>sun.java.launcher</key>
-    <value>SUN_STANDARD</value>
-  </parameter>
-  <parameter>
-    <key>user.country</key>
-    <value>US</value>
-  </parameter>
-  <parameter>
-    <key>apiSocketTimeout</key>
     <value>30</value>
   </parameter>
   <parameter>
@@ -501,10 +549,6 @@
     <value>en</value>
   </parameter>
   <parameter>
-    <key>createAnimatedGif</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
     <key>BaseURl</key>
     <value>https://fakerestapi.azurewebsites.net/api/v1/</value>
   </parameter>
@@ -513,20 +557,8 @@
     <value>30</value>
   </parameter>
   <parameter>
-    <key>java.runtime.name</key>
-    <value>Java(TM) SE Runtime Environment</value>
-  </parameter>
-  <parameter>
-    <key>generateExtentReports</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
     <key>java.vendor.url.bug</key>
     <value>https://bugreport.java.com/bugreport/</value>
-  </parameter>
-  <parameter>
-    <key>animatedGif_frameDelay</key>
-    <value>500</value>
   </parameter>
   <parameter>
     <key>AuthorsService</key>
@@ -537,32 +569,12 @@
     <value>E:\programming\FakeRESTApiUsingSHAFTengine</value>
   </parameter>
   <parameter>
-    <key>getCoverPhotosByBookIdJson</key>
-    <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByBookID.json</value>
-  </parameter>
-  <parameter>
-    <key>forceCheckElementLocatorIsUnique</key>
-    <value>true</value>
-  </parameter>
-  <parameter>
     <key>video.mode</key>
     <value>ALL</value>
   </parameter>
   <parameter>
     <key>browserStack.appiumVersion</key>
     <value>1.21.0</value>
-  </parameter>
-  <parameter>
-    <key>captureWebDriverLogs</key>
-    <value>false</value>
-  </parameter>
-  <parameter>
-    <key>setDataProviderThreadCount</key>
-    <value>1</value>
-  </parameter>
-  <parameter>
-    <key>browserStack.networkLogs</key>
-    <value>true</value>
   </parameter>
   <parameter>
     <key>java.vm.version</key>

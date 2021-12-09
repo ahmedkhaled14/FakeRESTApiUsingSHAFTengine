@@ -7,6 +7,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.json.simple.JSONObject;
 
+
 @SuppressWarnings({"unchecked", "UnusedReturnValue"})
 public class FakeRestApiAuthUsers {
     private final RestActions apiObject;
@@ -37,11 +38,7 @@ public class FakeRestApiAuthUsers {
                 .performRequest();
     }
 
-    public Response GetUserByID() {
-        Response GetUser = apiObject.buildNewRequest(UsersServiceName, RequestType.GET)
-                .setContentType(ContentType.JSON)
-                .performRequest();
-        int id = Integer.parseInt(RestActions.getResponseJSONValue(GetUser, "id[0]"));
+    public Response GetUserByID(int id) {
         return apiObject.buildNewRequest(UsersServiceName + "/" + id, RequestType.GET).performRequest();
     }
 

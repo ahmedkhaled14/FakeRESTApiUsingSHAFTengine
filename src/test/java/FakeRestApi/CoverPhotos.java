@@ -13,6 +13,8 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static FakeRestApi.Users.createUserJson;
+
 @SuppressWarnings("FieldCanBeLocal")
 @Epic("Fake RestAPI")
 @Feature("API")
@@ -34,8 +36,7 @@ public class CoverPhotos {
         getCoverPhotosByBookIdJson = new JSONFileManager(System.getProperty("getCoverPhotosByBookIdJson"));
         getCoverPhotosByIdJson = new JSONFileManager(System.getProperty("getCoverPhotosByIdJson"));
         updateCoverPhotoJson = new JSONFileManager(System.getProperty("updateCoverPhotoJson"));
-
-        restApiAuthUsers.CreateUser("Ahmed", "pass123");
+        restApiAuthUsers.CreateUser(createUserJson.getTestData("userName"), createUserJson.getTestData("password"));
     }
 
 
