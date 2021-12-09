@@ -1,0 +1,19 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 6] test cases in the current suite
+Test Method:		[FakeRestApi.CoverPhotos.DeleteCoverPhoto]
+Test Description:	[Delete Cover Photo]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @08-12-2021 18:29:56.0635 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @08-12-2021 18:29:56.0638 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-12-2021 18:29:56.0639 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/CoverPhotos" | Content Type: "application/json" | Response Time: "652ms"]. @08-12-2021 18:29:56.0960 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @08-12-2021 18:29:56.0979 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @08-12-2021 18:29:56.0983 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @08-12-2021 18:29:57.0238 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @08-12-2021 18:29:57.0810 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @08-12-2021 18:29:57.0812 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-12-2021 18:29:57.0813 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/CoverPhotos/1" | Content Type: "application/json" | Response Time: "559ms"]. @08-12-2021 18:29:57.0830 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @08-12-2021 18:29:57.0838 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @08-12-2021 18:29:57.0841 PM
