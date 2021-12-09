@@ -8,7 +8,7 @@ import org.json.simple.JSONObject;
 @SuppressWarnings("ALL")
 public class CoverPhotosCRUD {
     private RestActions apiObject;
-    private final String CoverPhotosServiceName = "CoverPhotos";
+    private final String CoverPhotosServiceName = System.getProperty("CoverPhotosServiceName");
 
     public CoverPhotosCRUD(RestActions apiObject) {
         this.apiObject = apiObject;
@@ -18,6 +18,7 @@ public class CoverPhotosCRUD {
         return apiObject.buildNewRequest(CoverPhotosServiceName, RestActions.RequestType.GET)
                 .setContentType(ContentType.JSON)
                 .performRequest();
+
     }
 
     private JSONObject CoverPhotoBody(String url) {

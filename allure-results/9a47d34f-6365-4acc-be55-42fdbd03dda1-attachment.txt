@@ -1,7 +1,0 @@
-[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @08-12-2021 18:29:52.0881 PM
-[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @08-12-2021 18:29:52.0940 PM
-[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-12-2021 18:29:52.0941 PM
-[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Users" | Content Type: "application/json" | Response Time: "2187ms"]. @08-12-2021 18:29:54.0503 PM
-[ReportManager] Successfully created attachment [API Request - Specifications] @08-12-2021 18:29:54.0507 PM
-[ReportManager] Successfully created attachment [API Request - JSON Body] @08-12-2021 18:29:54.0509 PM
-[ReportManager] Successfully created attachment [API Response - JSON Body] @08-12-2021 18:29:54.0512 PM

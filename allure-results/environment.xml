@@ -38,7 +38,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket14475 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket4983 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -189,6 +189,10 @@
     <value>local</value>
   </parameter>
   <parameter>
+    <key>ActivitiesServiceName</key>
+    <value>Activities</value>
+  </parameter>
+  <parameter>
     <key>apiConnectionManagerTimeout</key>
     <value>30</value>
   </parameter>
@@ -265,6 +269,14 @@
     <value>0</value>
   </parameter>
   <parameter>
+    <key>UsersServiceName</key>
+    <value>Users</value>
+  </parameter>
+  <parameter>
+    <key>createCoverPhotoJson</key>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/CreateCoverPhoto.json</value>
+  </parameter>
+  <parameter>
     <key>cucumber.plugin</key>
     <value>pretty, html:allure-results/cucumberReport.html, com.shaft.tools.listeners.CucumberFeatureListener</value>
   </parameter>
@@ -321,6 +333,10 @@
     <value>NONE</value>
   </parameter>
   <parameter>
+    <key>CoverPhotosServiceName</key>
+    <value>CoverPhotos</value>
+  </parameter>
+  <parameter>
     <key>java.vm.info</key>
     <value>mixed mode, sharing</value>
   </parameter>
@@ -355,6 +371,14 @@
   <parameter>
     <key>targetBrowserName</key>
     <value>GoogleChrome</value>
+  </parameter>
+  <parameter>
+    <key>BooksServiceName</key>
+    <value>Books</value>
+  </parameter>
+  <parameter>
+    <key>getCoverPhotosByIdJson</key>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByID.json</value>
   </parameter>
   <parameter>
     <key>screenshotParams_watermarkOpacity</key>
@@ -413,6 +437,10 @@
     <value>30</value>
   </parameter>
   <parameter>
+    <key>updateCoverPhotoJson</key>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/UpdateCoverPhoto.json</value>
+  </parameter>
+  <parameter>
     <key>waitForLazyLoading</key>
     <value>true</value>
   </parameter>
@@ -453,12 +481,12 @@
     <value>30</value>
   </parameter>
   <parameter>
-    <key>user.country</key>
-    <value>US</value>
-  </parameter>
-  <parameter>
     <key>sun.java.launcher</key>
     <value>SUN_STANDARD</value>
+  </parameter>
+  <parameter>
+    <key>user.country</key>
+    <value>US</value>
   </parameter>
   <parameter>
     <key>apiSocketTimeout</key>
@@ -475,6 +503,10 @@
   <parameter>
     <key>createAnimatedGif</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>BaseURl</key>
+    <value>https://fakerestapi.azurewebsites.net/api/v1/</value>
   </parameter>
   <parameter>
     <key>shellSessionTimeout</key>
@@ -497,8 +529,16 @@
     <value>500</value>
   </parameter>
   <parameter>
+    <key>AuthorsService</key>
+    <value>Authors</value>
+  </parameter>
+  <parameter>
     <key>user.dir</key>
     <value>E:\programming\FakeRESTApiUsingSHAFTengine</value>
+  </parameter>
+  <parameter>
+    <key>getCoverPhotosByBookIdJson</key>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByBookID.json</value>
   </parameter>
   <parameter>
     <key>forceCheckElementLocatorIsUnique</key>

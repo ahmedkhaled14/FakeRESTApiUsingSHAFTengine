@@ -8,7 +8,7 @@ import org.json.simple.JSONObject;
 @SuppressWarnings("ALL")
 public class BooksCRUD {
     private RestActions apiObject;
-    private final String BooksServiceName = "/Books";
+    private final String BooksServiceName = System.getProperty("BooksServiceName");
 
     public BooksCRUD(RestActions apiObject) {
         this.apiObject = apiObject;
