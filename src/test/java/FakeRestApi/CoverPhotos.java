@@ -13,15 +13,12 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static FakeRestApi.Users.createUserJson;
-
 @SuppressWarnings("FieldCanBeLocal")
 @Epic("Fake RestAPI")
 @Feature("API")
 public class CoverPhotos {
     private RestActions apiObject;
     private CoverPhotosCRUD coverPhotosCRUD;
-    private FakeRestApiAuthUsers restApiAuthUsers;
     private JSONFileManager createCoverPhotoJson;
     private JSONFileManager getCoverPhotosByBookIdJson;
     private JSONFileManager getCoverPhotosByIdJson;
@@ -31,12 +28,10 @@ public class CoverPhotos {
     public void beforeClass() {
         apiObject = DriverFactory.getAPIDriver(FakeRestApiAuthUsers.BaseURl);
         coverPhotosCRUD = new CoverPhotosCRUD(apiObject);
-        restApiAuthUsers = new FakeRestApiAuthUsers(apiObject);
         createCoverPhotoJson = new JSONFileManager(System.getProperty("createCoverPhotoJson"));
         getCoverPhotosByBookIdJson = new JSONFileManager(System.getProperty("getCoverPhotosByBookIdJson"));
         getCoverPhotosByIdJson = new JSONFileManager(System.getProperty("getCoverPhotosByIdJson"));
         updateCoverPhotoJson = new JSONFileManager(System.getProperty("updateCoverPhotoJson"));
-        restApiAuthUsers.CreateUser(createUserJson.getTestData("userName"), createUserJson.getTestData("password"));
     }
 
 
@@ -44,7 +39,7 @@ public class CoverPhotos {
     @Test(description = "Get Cover Photos")
     public void GetCoverPhotos() {
         Response getCoverPhotos = coverPhotosCRUD.GetCoverPhotos();
-       int StatusCode = RestActions.getResponseStatusCode(getCoverPhotos);
+        int StatusCode = RestActions.getResponseStatusCode(getCoverPhotos);
         Validations.assertThat()
                 .object(StatusCode)
                 .isEqualTo(200)

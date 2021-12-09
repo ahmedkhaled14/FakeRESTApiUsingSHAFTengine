@@ -8,8 +8,6 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import static FakeRestApi.Users.createUserJson;
-
 public class Authors {
 
     private RestActions apiObject;
@@ -21,7 +19,6 @@ public class Authors {
         apiObject = DriverFactory.getAPIDriver(FakeRestApiAuthUsers.BaseURl);
         restApiAuthUsers = new FakeRestApiAuthUsers(apiObject);
         authorsCRUD = new AuthorsCRUD(apiObject);
-        restApiAuthUsers.CreateUser(createUserJson.getTestData("userName"), createUserJson.getTestData("password"));
     }
 
     @Test(description = "Get All Authors")

@@ -1,0 +1,9 @@
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/BooksTestData/CreateBook.json"]. @09-12-2021 21:49:17.0631 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/BooksTestData/CreateBook.json]. @09-12-2021 21:49:17.0688 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @09-12-2021 21:49:17.0696 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/BooksTestData/getBookById.json"]. @09-12-2021 21:49:17.0700 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/BooksTestData/getBookById.json]. @09-12-2021 21:49:17.0701 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @09-12-2021 21:49:17.0704 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/BooksTestData/UpdateBook.json"]. @09-12-2021 21:49:17.0705 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/BooksTestData/UpdateBook.json]. @09-12-2021 21:49:17.0706 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @09-12-2021 21:49:17.0708 PM
