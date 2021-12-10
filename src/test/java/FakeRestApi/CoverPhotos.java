@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-@SuppressWarnings("FieldCanBeLocal")
+@SuppressWarnings("ALL")
 @Epic("Fake RestAPI")
 @Feature("API")
 public class CoverPhotos {

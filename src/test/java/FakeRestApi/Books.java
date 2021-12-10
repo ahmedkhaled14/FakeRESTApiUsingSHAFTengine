@@ -19,7 +19,6 @@ import org.testng.annotations.Test;
 public class Books {
     private RestActions apiObject;
     private BooksCRUD booksCRUD;
-    private FakeRestApiAuthUsers restApiAuthUsers;
     private JSONFileManager createBookJson;
     private JSONFileManager getBookByIdJson;
     private JSONFileManager updateBookJson;
@@ -28,7 +27,6 @@ public class Books {
     public void beforeClass() {
         apiObject = DriverFactory.getAPIDriver(FakeRestApiAuthUsers.BaseURl);
         booksCRUD = new BooksCRUD(apiObject);
-        restApiAuthUsers = new FakeRestApiAuthUsers(apiObject);
         createBookJson = new JSONFileManager(System.getProperty("createBookJson"));
         getBookByIdJson = new JSONFileManager(System.getProperty("getBookByIdJson"));
         updateBookJson = new JSONFileManager(System.getProperty("updateBookJson"));
