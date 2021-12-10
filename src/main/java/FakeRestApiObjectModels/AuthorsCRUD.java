@@ -9,7 +9,7 @@ import org.json.simple.JSONObject;
 public class AuthorsCRUD {
 
     private final RestActions apiObject;
-    private final String AuthorsService = "Authors";
+    private final String AuthorsService = System.getProperty("AuthorsService");
 
     public AuthorsCRUD(RestActions apiObject) {
         this.apiObject = apiObject;

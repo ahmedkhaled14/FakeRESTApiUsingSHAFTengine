@@ -10,8 +10,8 @@ import org.json.simple.JSONObject;
 @SuppressWarnings({"unchecked", "UnusedReturnValue"})
 public class FakeRestApiAuthUsers {
     private final RestActions apiObject;
-    public static final String BaseURl = "https://fakerestapi.azurewebsites.net/api/v1/";
-    String UsersServiceName = "Users";
+    public static final String BaseURl = System.getProperty("BaseURl");
+    String UsersServiceName = System.getProperty("UsersServiceName");
 
     public FakeRestApiAuthUsers(RestActions apiObject) {
         this.apiObject = apiObject;

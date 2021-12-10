@@ -8,7 +8,7 @@ import org.json.simple.JSONObject;
 @SuppressWarnings("ALL")
 public class ActivitiesCRUD {
     private RestActions apiObject;
-    private String ActivitiesServiceName = "Activities";
+    private String ActivitiesServiceName = System.getProperty("ActivitiesServiceName");
 
     public ActivitiesCRUD(RestActions apiObject) {
         this.apiObject = apiObject;
