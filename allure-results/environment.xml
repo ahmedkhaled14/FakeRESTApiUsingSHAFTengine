@@ -22,7 +22,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket14933 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket2571 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -63,6 +63,10 @@
   <parameter>
     <key>cleanAllureResultsDirectoryBeforeExecution</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>createAuthorJson</key>
+    <value>src/test/resources/testDataFiles/AuthorsTestData/CreateAuthor.json</value>
   </parameter>
   <parameter>
     <key>java.io.tmpdir</key>
@@ -267,6 +271,10 @@
   <parameter>
     <key>screenshotParams_watermark</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>getAuthorByBookIdJson</key>
+    <value>src/test/resources/testDataFiles/AuthorsTestData/GetAuthorByBookId.json</value>
   </parameter>
   <parameter>
     <key>browserNavigationTimeout</key>
@@ -501,12 +509,20 @@
     <value>src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json</value>
   </parameter>
   <parameter>
+    <key>getAuthorByIdJson</key>
+    <value>src/test/resources/testDataFiles/AuthorsTestData/GetAuthorById.json</value>
+  </parameter>
+  <parameter>
     <key>captureClickedElementText</key>
     <value>true</value>
   </parameter>
   <parameter>
     <key>file.separator</key>
     <value>\</value>
+  </parameter>
+  <parameter>
+    <key>updateAuthorJson</key>
+    <value>src/test/resources/testDataFiles/AuthorsTestData/UpdateAuthor.json</value>
   </parameter>
   <parameter>
     <key>headlessExecution</key>
