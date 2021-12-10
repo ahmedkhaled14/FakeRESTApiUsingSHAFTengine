@@ -9,6 +9,10 @@
     <value>17</value>
   </parameter>
   <parameter>
+    <key>updateBookJson</key>
+    <value>src/test/resources/testDataFiles/BooksTestData/UpdateBook.json</value>
+  </parameter>
+  <parameter>
     <key>java.vendor.url</key>
     <value>https://java.oracle.com/</value>
   </parameter>
@@ -18,7 +22,7 @@
   </parameter>
   <parameter>
     <key>sun.java.command</key>
-    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket7740 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
+    <value>com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener com.shaft.tools.listeners.AlterSuiteListener;com.shaft.tools.listeners.SuiteListener;com.shaft.tools.listeners.InvokedMethodListener -socket12500 @w@C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Ahmedeng_2537\AppData\Local\Temp\idea_testng.tmp</value>
   </parameter>
   <parameter>
     <key>jdk.debug</key>
@@ -154,7 +158,7 @@
   </parameter>
   <parameter>
     <key>createCoverPhotoJson</key>
-    <value>src/test/resources/testDataFiles/CoverPhotosTestData/CreateCoverPhoto.json</value>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/createCoverPhoto.json</value>
   </parameter>
   <parameter>
     <key>updateUserJson</key>
@@ -226,7 +230,7 @@
   </parameter>
   <parameter>
     <key>getCoverPhotosByIdJson</key>
-    <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByID.json</value>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosById.json</value>
   </parameter>
   <parameter>
     <key>screenshotParams_watermarkOpacity</key>
@@ -239,6 +243,10 @@
   <parameter>
     <key>java.vm.compressedOopsMode</key>
     <value>32-bit</value>
+  </parameter>
+  <parameter>
+    <key>AuthorsServiceName</key>
+    <value>Authors</value>
   </parameter>
   <parameter>
     <key>testDataColumnNamePrefix</key>
@@ -298,7 +306,7 @@
   </parameter>
   <parameter>
     <key>getCoverPhotosByBookIdJson</key>
-    <value>src/test/resources/testDataFiles/CoverPhotosTestData/GetCoverPhotoByBookID.json</value>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosByBookId.json</value>
   </parameter>
   <parameter>
     <key>forceCheckElementLocatorIsUnique</key>
@@ -315,6 +323,10 @@
   <parameter>
     <key>browserStack.networkLogs</key>
     <value>true</value>
+  </parameter>
+  <parameter>
+    <key>getBookByIdJson</key>
+    <value>src/test/resources/testDataFiles/BooksTestData/getBookById.json</value>
   </parameter>
   <parameter>
     <key>sun.cpu.isalist</key>
@@ -461,6 +473,10 @@
     <value>mixed mode, sharing</value>
   </parameter>
   <parameter>
+    <key>createBookJson</key>
+    <value>src/test/resources/testDataFiles/BooksTestData/CreateBook.json</value>
+  </parameter>
+  <parameter>
     <key>java.class.version</key>
     <value>61.0</value>
   </parameter>
@@ -510,7 +526,7 @@
   </parameter>
   <parameter>
     <key>updateCoverPhotoJson</key>
-    <value>src/test/resources/testDataFiles/CoverPhotosTestData/UpdateCoverPhoto.json</value>
+    <value>src/test/resources/testDataFiles/CoverPhotosTestData/updateCoverPhoto.json</value>
   </parameter>
   <parameter>
     <key>waitForLazyLoading</key>
@@ -559,10 +575,6 @@
   <parameter>
     <key>java.vendor.url.bug</key>
     <value>https://bugreport.java.com/bugreport/</value>
-  </parameter>
-  <parameter>
-    <key>AuthorsService</key>
-    <value>Authors</value>
   </parameter>
   <parameter>
     <key>user.dir</key>

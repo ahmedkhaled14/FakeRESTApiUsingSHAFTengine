@@ -62,6 +62,7 @@ public class Users {
                 .response(getUserByID)
                 .isEqualToFileContent(System.getProperty("getUserByID"))
                 .perform();
+
     }
 
     @Story("Users CRUD")
