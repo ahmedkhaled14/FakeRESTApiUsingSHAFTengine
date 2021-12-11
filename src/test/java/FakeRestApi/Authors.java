@@ -8,16 +8,15 @@ import io.restassured.response.Response;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+@SuppressWarnings("ALL")
 public class Authors {
 
     private RestActions apiObject;
     private AuthorsCRUD authorsCRUD;
-    private FakeRestApiAuthUsers restApiAuthUsers;
 
     @BeforeClass
     public void beforeClass() {
         apiObject = DriverFactory.getAPIDriver(FakeRestApiAuthUsers.BaseURl);
-        restApiAuthUsers = new FakeRestApiAuthUsers(apiObject);
         authorsCRUD = new AuthorsCRUD(apiObject);
     }
 
