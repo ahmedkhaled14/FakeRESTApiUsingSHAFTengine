@@ -1,0 +1,15 @@
+
+################################################################################################################################################
+Starting Execution:	[13 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.CoverPhotos.GetCoverPhotos]
+Test Description:	[Get Cover Photos]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 20:04:45.0758 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 20:04:45.0759 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 20:04:45.0760 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/CoverPhotos" | Content Type: "application/json" | Response Time: "553ms"]. @10-12-2021 20:04:45.0907 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 20:04:45.0909 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 20:04:45.0911 PM
+[ReportManager] API Action [GetResponseStatusCode] successfully performed. With the following test data [200]. @10-12-2021 20:04:45.0912 PM
+[ReportManager] Assertion Passed: assert that Response Status Code is equal 200 Success @10-12-2021 20:04:45.0913 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 20:04:45.0913 PM

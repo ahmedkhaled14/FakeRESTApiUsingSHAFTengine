@@ -14,8 +14,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 @SuppressWarnings("ALL")
-@Feature("Fake RestAPI")
-@Epic("API")
+@Epic("Fake RestAPI")
+@Feature("API")
 public class Authors {
 
     private RestActions apiObject;

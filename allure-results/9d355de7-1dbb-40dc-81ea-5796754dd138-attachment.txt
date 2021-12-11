@@ -1,0 +1,12 @@
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/CoverPhotosTestData/createCoverPhoto.json"]. @10-12-2021 20:04:43.0042 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/CoverPhotosTestData/createCoverPhoto.json]. @10-12-2021 20:04:43.0043 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 20:04:43.0044 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosByBookId.json"]. @10-12-2021 20:04:43.0044 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosByBookId.json]. @10-12-2021 20:04:43.0045 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 20:04:43.0047 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosById.json"]. @10-12-2021 20:04:43.0047 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosById.json]. @10-12-2021 20:04:43.0049 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 20:04:43.0050 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/CoverPhotosTestData/updateCoverPhoto.json"]. @10-12-2021 20:04:43.0050 PM
+[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/CoverPhotosTestData/updateCoverPhoto.json]. @10-12-2021 20:04:43.0051 PM
+[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 20:04:43.0052 PM

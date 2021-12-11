@@ -1,0 +1,23 @@
+
+################################################################################################################################################
+Starting Execution:	[15 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.CoverPhotos.GetCoverPhotosByID]
+Test Description:	[Get Cover Photos By ID]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 20:04:47.0967 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 20:04:47.0969 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 20:04:47.0970 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/CoverPhotos" | Content Type: "application/json" | Response Time: "562ms"]. @10-12-2021 20:04:48.0132 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 20:04:48.0133 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 20:04:48.0135 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @10-12-2021 20:04:48.0174 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 20:04:48.0735 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 20:04:48.0736 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 20:04:48.0737 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/CoverPhotos/1" | Content Type: "application/json" | Response Time: "558ms"]. @10-12-2021 20:04:48.0785 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 20:04:48.0786 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 20:04:48.0788 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/CoverPhotosTestData/getCoverPhotosById.json"]. @10-12-2021 20:04:48.0789 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id]. @10-12-2021 20:04:48.0835 PM
+[ReportManager] Assertion Passed: Then I Assert that the API response extracted value from the JSON path [id] is equal to [1]. @10-12-2021 20:04:48.0835 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [1] and Actual [1]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 20:04:48.0835 PM
