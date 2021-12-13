@@ -1,0 +1,28 @@
+
+################################################################################################################################################
+Starting Execution:	[10 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.Authors.GetAuthorById]
+Test Description:	[Get Author By Id]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:19.0028 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:19.0030 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:19.0031 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Authors" | Content Type: "application/json" | Response Time: "598ms"]. @10-12-2021 21:53:19.0443 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:19.0543 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:19.0549 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @10-12-2021 21:53:20.0157 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:20.0878 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:20.0879 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:20.0880 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Authors/1" | Content Type: "application/json" | Response Time: "661ms"]. @10-12-2021 21:53:20.0933 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:20.0935 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:20.0943 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/AuthorsTestData/GetAuthorById.json"]. @10-12-2021 21:53:20.0944 PM
+[ReportManager] Comparing the provided API response with the file at this path "E:\programming\FakeRESTApiUsingSHAFTengine\src\test\resources\testDataFiles\AuthorsTestData\GetAuthorById.json", comparison type "EQUALS" @10-12-2021 21:53:20.0946 PM
+[ReportManager] API Action [CompareJSON] successfully performed. With the following test data [E:\programming\FakeRESTApiUsingSHAFTengine\src\test\resources\testDataFiles\AuthorsTestData\GetAuthorById.json]. @10-12-2021 21:53:20.0947 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "E:\programming\FakeRESTApiUsingSHAFTengine\src\test\resources\testDataFiles\AuthorsTestData\GetAuthorById.json"]. @10-12-2021 21:53:20.0948 PM
+[ReportManager] File Action [ReadFromFile] successfully performed. With the following test data [File Path: "E:\programming\FakeRESTApiUsingSHAFTengine\src\test\resources\testDataFiles\AuthorsTestData\GetAuthorById.json"]. @10-12-2021 21:53:20.0949 PM
+[ReportManager] Assertion Passed: Then I Assert that the API response is equal to the contents of this file [src/test/resources/testDataFiles/AuthorsTestData/GetAuthorById.json]. @10-12-2021 21:53:20.0950 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Expected JSON Value] @10-12-2021 21:53:20.0958 PM
+[ReportManager] Successfully created attachment [Validation Test Data - Actual JSON Value] @10-12-2021 21:53:20.0960 PM
+[ReportManager] Assertion [ValidateJSONFileContent] PASSED. Expected [Response data should match the JSON File in this path 'E:\programming\FakeRESTApiUsingSHAFTengine\src\test\resources\testDataFiles\AuthorsTestData\GetAuthorById.json'] and Actual [TRUE]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:20.0961 PM

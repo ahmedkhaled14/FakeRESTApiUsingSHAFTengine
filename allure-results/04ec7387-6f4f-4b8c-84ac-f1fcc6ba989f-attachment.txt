@@ -1,0 +1,27 @@
+
+################################################################################################################################################
+Starting Execution:	[5 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.Activities.UpdatedActivity]
+Test Description:	[Update Activity]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:08.0507 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:08.0508 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:08.0509 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Activities" | Content Type: "*/*" | Response Time: "597ms"]. @10-12-2021 21:53:08.0938 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:09.0193 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:09.0219 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[1]]. @10-12-2021 21:53:09.0477 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json"]. @10-12-2021 21:53:09.0485 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json"]. @10-12-2021 21:53:09.0551 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json"]. @10-12-2021 21:53:09.0684 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:10.0360 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:10.0363 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:10.0364 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "PUT" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Activities/2" | Content Type: "application/json" | Response Time: "603ms"]. @10-12-2021 21:53:10.0408 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:10.0414 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @10-12-2021 21:53:10.0420 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:10.0428 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json"]. @10-12-2021 21:53:10.0429 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [title]. @10-12-2021 21:53:10.0471 PM
+[ReportManager] Assertion Passed: Then I Assert that the API response extracted value from the JSON path [title] is equal to [UpdateActivity]. @10-12-2021 21:53:10.0472 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [UpdateActivity] and Actual [UpdateActivity]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:10.0473 PM

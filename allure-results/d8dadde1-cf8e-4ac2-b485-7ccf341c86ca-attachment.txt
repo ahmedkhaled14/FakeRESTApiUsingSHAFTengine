@@ -1,0 +1,20 @@
+
+################################################################################################################################################
+Starting Execution:	[6 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.Authors.CreateAuthor]
+Test Description:	[Create New Authors]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/AuthorsTestData/CreateAuthor.json"]. @10-12-2021 21:53:10.0711 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/AuthorsTestData/CreateAuthor.json"]. @10-12-2021 21:53:10.0740 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/AuthorsTestData/CreateAuthor.json"]. @10-12-2021 21:53:10.0787 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:11.0424 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:11.0425 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:11.0425 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Authors" | Content Type: "application/json" | Response Time: "588ms"]. @10-12-2021 21:53:11.0450 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:11.0453 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @10-12-2021 21:53:11.0455 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:11.0457 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/AuthorsTestData/CreateAuthor.json"]. @10-12-2021 21:53:11.0458 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [firstName]. @10-12-2021 21:53:11.0545 PM
+[ReportManager] Assertion Passed: Then I Assert that the API response extracted value from the JSON path [firstName] is equal to [Ahmed]. @10-12-2021 21:53:11.0546 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Ahmed] and Actual [Ahmed]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:11.0547 PM

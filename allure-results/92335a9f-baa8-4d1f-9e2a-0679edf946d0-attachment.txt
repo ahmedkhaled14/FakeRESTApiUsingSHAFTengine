@@ -1,0 +1,21 @@
+
+################################################################################################################################################
+Starting Execution:	[13 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.Books.DeleteBook]
+Test Description:	[Delete Book]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:24.0773 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:24.0775 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:24.0776 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "GET" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Books" | Content Type: "application/json" | Response Time: "661ms"]. @10-12-2021 21:53:26.0217 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:26.0219 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:26.0240 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [id[0]]. @10-12-2021 21:53:26.0675 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:27.0643 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:27.0645 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:27.0645 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "DELETE" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Books/1" | Content Type: "application/json" | Response Time: "964ms"]. @10-12-2021 21:53:27.0646 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:27.0648 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:27.0657 PM
+[ReportManager] Assertion Passed: assert that Delete Response Body return Empty Body @10-12-2021 21:53:27.0661 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [] and Actual []. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:27.0681 PM

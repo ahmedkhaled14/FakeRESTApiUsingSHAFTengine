@@ -1,0 +1,19 @@
+
+################################################################################################################################################
+Starting Execution:	[23 out of 27] test cases in the current suite
+Test Method:		[FakeRestApi.Users.CreateUser]
+Test Description:	[Create New User]
+################################################################################################################################################
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/UsersTestData/CreateUser.json"]. @10-12-2021 21:53:50.0314 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/UsersTestData/CreateUser.json"]. @10-12-2021 21:53:50.0345 PM
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @10-12-2021 21:53:51.0000 PM
+[ReportManager] Assertion Passed: Evaluating the actual response status code against the expected one... @10-12-2021 21:53:51.0015 PM
+[ReportManager] Assertion [ValidateComparativeRelation] PASSED. Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:51.0016 PM
+[ReportManager] API Action [PerformRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://fakerestapi.azurewebsites.net/api/v1/Users" | Content Type: "application/json" | Response Time: "581ms"]. @10-12-2021 21:53:51.0087 PM
+[ReportManager] Successfully created attachment [API Request - Specifications] @10-12-2021 21:53:51.0137 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @10-12-2021 21:53:51.0150 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @10-12-2021 21:53:51.0238 PM
+[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/UsersTestData/CreateUser.json"]. @10-12-2021 21:53:51.0238 PM
+[ReportManager] API Action [GetResponseJSONValue] successfully performed. With the following test data [userName]. @10-12-2021 21:53:51.0684 PM
+[ReportManager] Assertion Passed: Then I Assert that the API response extracted value from the JSON path [userName] is equal to [Admin]. @10-12-2021 21:53:51.0685 PM
+[ReportManager] Assertion [ValidateEquals] PASSED. Expected [Admin] and Actual [Admin]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @10-12-2021 21:53:51.0686 PM
