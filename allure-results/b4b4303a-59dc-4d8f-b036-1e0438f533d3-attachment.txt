@@ -1,9 +1,0 @@
-[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/CreateActivity.json"]. @10-12-2021 21:52:51.0575 PM
-[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/ActivitiesTestData/CreateActivity.json]. @10-12-2021 21:52:51.0619 PM
-[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 21:52:51.0623 PM
-[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/GetActivityByID.json"]. @10-12-2021 21:52:51.0632 PM
-[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/ActivitiesTestData/GetActivityByID.json]. @10-12-2021 21:52:51.0633 PM
-[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 21:52:51.0638 PM
-[ReportManager] File Action [GetAbsolutePath] successfully performed. With the following test data [Relative Folder Path: "src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json"]. @10-12-2021 21:52:51.0640 PM
-[ReportManager] Successfully loaded the following test data file [src/test/resources/testDataFiles/ActivitiesTestData/UpdateActivity.json]. @10-12-2021 21:52:51.0643 PM
-[ReportManager] Successfully created attachment [Test Data - JSON] @10-12-2021 21:52:51.0646 PM
