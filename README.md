@@ -1,7 +1,30 @@
-# Fake RESTApi Using SHAFT_Engine
-## FakeRESTApi is a Demo Websites Contains 27 API Request Which You Can Use To Perform API Testing.
+<div align="center">
+ <img  src="https://user-images.githubusercontent.com/68038931/147390936-c6228337-9787-4aab-b5d6-826bc8e4e4a3.gif" alt="test-light" width="1000" height="250" />
+ </div>
 
+# *FakeRESTApi* ==> *Api Test Automation* *Using* *SHAFT_Engine*
+## FakeRESTApi is a Demo Websites Contains 27 API Request Which You Can Use To Perform API Testing.
 ### URL: https://fakerestapi.azurewebsites.net/index.html
+
+- ### The main Frameworks included in the project:
+ **SHAFT Engine on the Top of:**
+
+ *RestAssured*
+ 
+ *TestNG*
+ 
+ *Allure Report*
+ 
+ *Extent Reports*
+ 
+- ### Project Design:
+ *Object Model design pattern*
+ 
+ *Data Driven framework*
+ 
+ *Java Docs*
+
+
 ### How To Use this Project With SHAFT_Engine : ###
 
 ### You can use it with any IDE like ==> EX: Eclipse IDE
